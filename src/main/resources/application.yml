@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${HOME}/Desktop/repos/learning/configrepo
+          default-label: master
+        encrypt:
+          enabled: false
+encrypt:
+  key: APODNU3093r2rbjzxcn09u213asdhy08WRFH
+
+
+server:
+  port: 8880
